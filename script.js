@@ -44,4 +44,23 @@ async function loadMedicines() {
   }
 }
 
+async function loadCompanyInfo() {
+  const container = document.getElementById("company-info-text");
+  if (!container) return;
+  try {
+    const res = await fetch(`${API_BASE}/api/company-info`);
+    if (!res.ok) throw new Error("API xatosi");
+    const data = await res.json();
+    if (!data.text) return;
+    // Matndagi bo'sh qatorlar orqali paragraflarga bo'lib chiqaramiz
+    container.innerHTML = data.text
+      .split(/\n\s*\n/)
+      .map(part => `<p>${escapeHtml(part).replace(/\n/g, "<br>")}</p>`)
+      .join("");
+  } catch (err) {
+    console.warn("Kompaniya ma'lumotini yuklab bo'lmadi, statik matn qoladi:", err);
+  }
+}
+
 loadMedicines();
+loadCompanyInfo();
