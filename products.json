@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "name_uz": "Arpetol",
+    "name_en": "Arpetol",
+    "category": "Antivirus",
+    "short_uz": "Grip va OʻRVI davolash uchun antivirus preparat",
+    "short_en": "Antiviral drug for flu and ARVI treatment",
+    "full_uz": "Yuqori nafas yo'llari virusli infeksiyalarini (OʻRVI) va gripni davolash hamda oldini olish uchun mo'ljallangan.",
+    "full_en": "Designed for the treatment and prevention of acute respiratory viral infections and influenza.",
+    "image": "images/products/arpetol.jpg"
+  },
+  {
+    "id": 2,
+    "name_uz": "Neyrovit",
+    "name_en": "Neurovit",
+    "category": "Vitaminlar",
+    "short_uz": "B1, B6, B12 vitaminlari asosidagi kombinatsiyalangan dori",
+    "short_en": "Combination drug based on vitamins B1, B6, B12",
+    "full_uz": "Nerv tizimi faoliyatini yaxshilash uchun B guruh vitaminlari va lidokain saqlovchi in'eksion dori vositasi.",
+    "full_en": "An injectable medicine containing B-group vitamins and lidocaine to support nervous system function.",
+    "image": "images/products/neyrovit.jpg"
+  },
+  {
+    "id": 3,
+    "name_uz": "ASK",
+    "name_en": "ASA",
+    "category": "Yurak-qon tomir",
+    "short_uz": "Tromboz xavfini kamaytirish uchun",
+    "short_en": "Reduces the risk of thrombosis",
+    "full_uz": "Yurak va miya arteriyalarida tromboz xavfini kamaytirish maqsadida qo'llaniladigan atsetilsalitsil kislotasi asosidagi dori.",
+    "full_en": "An acetylsalicylic acid-based medicine used to reduce the risk of thrombosis in heart and brain arteries.",
+    "image": "images/products/ask.jpg"
+  }
+]
