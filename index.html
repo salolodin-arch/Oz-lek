@@ -2,92 +2,158 @@
 <html lang="uz">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>OZ-LEK — Farmatsevtika kompaniyasi</title>
-<meta name="description" content="OZ-LEK — dori vositalarini Belarusiyadan olib kiruvchi va ulgurji sotuvchi farmatsevtika kompaniyasi">
-<link rel="stylesheet" href="css/style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OZ-LEK — Farmatsevtika ulgurji savdosi</title>
+<meta name="description" content="OZ-LEK MCHJ — Belarusiyadan dori vositalarini import qiluvchi va O'zbekiston bozoriga yetkazib beruvchi farmatsevtika kompaniyasi.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<nav class="navbar">
-  <div class="navbar-inner">
-    <a href="index.html" class="logo-mark"><span class="logo-ring"></span> OZ-LEK</a>
-    <button class="nav-toggle">&#9776;</button>
-    <ul class="nav-links">
-      <li><a href="kompaniya.html"><span class="lang-uz">Kompaniya</span><span class="lang-en">Company</span></a></li>
-      <li><a href="mahsulotlar.html"><span class="lang-uz">Mahsulotlar</span><span class="lang-en">Products</span></a></li>
-      <li><a href="kontakt.html"><span class="lang-uz">Kontakt</span><span class="lang-en">Contact</span></a></li>
-    </ul>
-    <div class="lang-switch">
-      <a href="#" data-lang-btn="uz">UZ</a>
-      <a href="#" data-lang-btn="en">EN</a>
-    </div>
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="#top" class="logo">
+      <span class="logo-mark" aria-hidden="true">℞</span>
+      <span class="logo-text">OZ&#8209;LEK</span>
+    </a>
+    <nav class="main-nav">
+      <a href="#about">Biz haqimizda</a>
+      <a href="#catalog">Dorilar katalogi</a>
+      <a href="#partnership">Hamkorlik</a>
+      <a href="#contact">Bog'lanish</a>
+    </nav>
+    <a href="#bot" class="btn btn-primary nav-cta">Telegram bot</a>
   </div>
-</nav>
+</header>
 
-<section class="hero">
-  <div class="container">
-    <h1>OZ-LEK</h1>
-    <p>
-      <span class="lang-uz">Farmatsevtika tovarlarini ulgurji yetkazib berish va sifatli dori vositalari bilan ta'minlash bo'yicha ishonchli hamkoringiz.</span>
-      <span class="lang-en">Your trusted partner in pharmaceutical wholesale supply and quality medical products.</span>
-    </p>
-    <a href="mahsulotlar.html" class="btn"><span class="lang-uz">Mahsulotlarni ko'rish</span><span class="lang-en">View products</span></a>
-    <a href="kontakt.html" class="btn-outline" style="margin-left:12px;"><span class="lang-uz">Bog'lanish</span><span class="lang-en">Contact us</span></a>
-  </div>
-</section>
+<main id="top">
 
-<section class="section">
-  <div class="container">
-    <h2 class="section-title"><span class="lang-uz">Mahsulotlar</span><span class="lang-en">Products</span></h2>
-    <p class="section-sub"><span class="lang-uz">Belarusiyalik "Лекфарм" bilan hamkorlikda yetkazib beriladigan dorilar</span><span class="lang-en">Medicines supplied in partnership with the Belarusian company "Лекфарм"</span></p>
-    <div class="grid" id="products-grid"></div>
-    <p id="products-empty" style="display:none; color:#888;"></p>
-    <div style="text-align:center; margin-top:24px;">
-      <a href="mahsulotlar.html" class="btn-outline"><span class="lang-uz">Barchasini ko'rish</span><span class="lang-en">View all</span></a>
-    </div>
-  </div>
-</section>
-
-<section class="section" style="background:var(--oz-light); text-align:center;">
-  <div class="container">
-    <h2 class="section-title"><span class="lang-uz">Telegram bot orqali</span><span class="lang-en">Via our Telegram bot</span></h2>
-    <p class="section-sub"><span class="lang-uz">Barcha mahsulotlar va kompaniya haqidagi ma'lumotni Telegram botimizdan ham (matn yoki ovozli xabar bilan) so'rashingiz mumkin.</span><span class="lang-en">You can also ask our Telegram bot about all products and company info — by text or voice message.</span></p>
-    <a href="https://t.me/ozlek_farm_bot" target="_blank" rel="noopener" class="btn">@ozlek_farm_bot</a>
-  </div>
-</section>
-
-<footer>
-  <div class="container">
-    <div class="footer-cols">
-      <div>
-        <h4>OZ-LEK</h4>
-        <p style="font-size:14px;"><span class="lang-uz">Farmatsevtika tovarlari ulgurji savdosi</span><span class="lang-en">Wholesale of pharmaceutical products</span></p>
+  <section class="hero">
+    <div class="container hero-inner">
+      <p class="eyebrow">STIR 310043123 &nbsp;·&nbsp; Urganch, Xorazm</p>
+      <h1>Belarusiyadan O'zbekistonga — <em>ishonchli dori yetkazuvchi</em></h1>
+      <p class="hero-lede">
+        OZ&#8209;LEK MCHJ — "Lekpharm" (Belarusiya) bilan tuzilgan shartnoma asosida
+        sifatli dori vositalarini import qiladi va mamlakat bo'ylab ulgurji yetkazib beradi.
+      </p>
+      <div class="hero-actions">
+        <a href="#catalog" class="btn btn-primary">Dorilar katalogini ko'rish</a>
+        <a href="#bot" class="btn btn-outline">Telegram botdan foydalanish</a>
       </div>
-      <div>
-        <h4><span class="lang-uz">Havolalar</span><span class="lang-en">Links</span></h4>
-        <ul>
-          <li><a href="kompaniya.html"><span class="lang-uz">Kompaniya haqida</span><span class="lang-en">About us</span></a></li>
-          <li><a href="mahsulotlar.html"><span class="lang-uz">Mahsulotlar</span><span class="lang-en">Products</span></a></li>
+      <dl class="hero-stats">
+        <div><dt>Tashkil topgan</dt><dd>2022</dd></div>
+        <div><dt>Ustav kapitali</dt><dd>1,79 mlrd so'm</dd></div>
+        <div><dt>Xodimlar soni</dt><dd>33</dd></div>
+      </dl>
+    </div>
+    <div class="hero-strip" aria-hidden="true">
+      <span>℞ IMPORT</span><span>℞ SIFAT NAZORATI</span><span>℞ ULGURJI YETKAZISH</span><span>℞ LEKPHARM HAMKORLIGI</span>
+      <span>℞ IMPORT</span><span>℞ SIFAT NAZORATI</span><span>℞ ULGURJI YETKAZISH</span><span>℞ LEKPHARM HAMKORLIGI</span>
+    </div>
+  </section>
+
+  <section id="about" class="section about">
+    <div class="container about-grid">
+      <div class="about-text">
+        <p class="eyebrow">Oz-Lek haqida</p>
+        <h2>Xorazmdan boshlangan, butun mamlakatga xizmat qiladigan biznes</h2>
+        <p>
+          "OZ&#8209;LEK" Mas'uliyati Cheklangan Jamiyati 2022&#8209;yil 25&#8209;noyabrda ro'yxatdan o'tgan bo'lib,
+          farmatsevtika tovarlarini ulgurji savdo qilish (OKED 46460) yo'nalishida faoliyat yuritadi.
+          Kompaniya Belarusiyaning "Lekpharm" ishlab chiqaruvchisi bilan bevosita shartnoma tuzgan va
+          dori vositalarini rasmiy tarzda import qiladi.
+        </p>
+        <p>
+          Bugungi kunda OZ&#8209;LEK Xorazm viloyatida daromad bo'yicha yetakchi o'rinlardan birini egallaydi
+          va tarmoq bo'yicha O'zbekiston miqyosida barqaror o'sib boruvchi kompaniyalardan biri hisoblanadi.
+        </p>
+        <ul class="fact-list">
+          <li><span>Yuridik nomi</span><span>"OZ-LEK" MCHJ</span></li>
+          <li><span>STIR</span><span>310043123</span></li>
+          <li><span>Ro'yxat raqami</span><span>2022842</span></li>
+          <li><span>Faoliyat turi</span><span>OKED 46460 — Farmatsevtika ulgurji savdosi</span></li>
+          <li><span>Rahbar</span><span>Bazarboyev Otabek Nuraddinovich</span></li>
+          <li><span>Holati</span><span>Faoliyat ko'rsatmoqda, soliq to'lovchisi (QQS)</span></li>
         </ul>
       </div>
+      <aside class="about-card">
+        <p class="about-card-label">Yuridik manzil</p>
+        <p class="about-card-text">Xorazm viloyati, Urganch shahri,<br>Ashxobod MFY, Sanoatchilar ko'chasi, 85J&#8209;uy</p>
+        <p class="about-card-label">Telefon</p>
+        <p class="about-card-text"><a href="tel:+998990010101">+998 99 001 01 01</a></p>
+        <p class="about-card-label">Hamkor</p>
+        <p class="about-card-text">Lekpharm UP (Belarusiya)</p>
+      </aside>
+    </div>
+  </section>
+
+  <section id="catalog" class="section catalog">
+    <div class="container">
+      <p class="eyebrow">Assortiment</p>
+      <h2>Dorilar katalogi</h2>
+      <p class="section-lede">Quyidagi ro'yxat bizning Telegram admin panelimiz orqali doimiy yangilanib boradi.</p>
+
+      <div id="catalog-grid" class="catalog-grid">
+        <!-- JS orqali to'ldiriladi -->
+      </div>
+      <p id="catalog-empty" class="catalog-empty" hidden>
+        Hozircha katalog bo'sh yoki serverga ulanib bo'lmadi. Iltimos, Telegram bot orqali so'rang.
+      </p>
+    </div>
+  </section>
+
+  <section id="bot" class="section bot-section">
+    <div class="container bot-grid">
       <div>
-        <h4><span class="lang-uz">Kontakt</span><span class="lang-en">Contact</span></h4>
-        <ul>
-          <li>Xorazm viloyati, Urganch shahri, Ashxobod MFY, Sanoatchilar ko'chasi, 85J-uy</li>
-          <li>+998 (99) 001-01-01</li>
-          <li><a href="https://t.me/ozlek_farm_bot" target="_blank" rel="noopener">Telegram: @ozlek_farm_bot</a></li>
-        </ul>
+        <p class="eyebrow">24/7 xizmat</p>
+        <h2>Telegram bot orqali tezkor ma'lumot</h2>
+        <p>
+          Botimiz orqali kompaniya haqida ma'lumotni matn yoki <strong>ovozli xabar</strong> yuborib so'rashingiz,
+          shuningdek har qanday dori haqida uning nomini yozib yoki ro'yxatdan tanlab bilib olishingiz mumkin.
+        </p>
+        <a href="https://t.me/your_public_bot_username" class="btn btn-primary" target="_blank" rel="noopener">Botni ochish →</a>
+      </div>
+      <div class="bot-card">
+        <p class="bot-card-line">/start</p>
+        <p class="bot-card-line indent">→ 💊 Dorilar katalogi</p>
+        <p class="bot-card-line indent">→ ℹ️ Oz-Lek haqida</p>
+        <p class="bot-card-line">🎤 ovozli xabar → avtomatik javob</p>
       </div>
     </div>
-    <div class="footer-bottom">&copy; 2026 OZ-LEK MCHJ. <span class="lang-uz">Barcha huquqlar himoyalangan.</span><span class="lang-en">All rights reserved.</span></div>
+  </section>
+
+  <section id="partnership" class="section partnership">
+    <div class="container">
+      <p class="eyebrow">Hamkorlik</p>
+      <h2>Dorixona yoki ulgurji xaridor bo'lsangiz</h2>
+      <p class="section-lede">Yetkazib berish shartlari va narxlar bo'yicha biz bilan bog'laning.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer id="contact" class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <span class="logo-text footer-logo">OZ&#8209;LEK</span>
+      <p>Farmatsevtika tovarlari ulgurji savdosi</p>
+    </div>
+    <div>
+      <p class="footer-label">Manzil</p>
+      <p>Xorazm viloyati, Urganch shahri, Sanoatchilar ko'chasi, 85J&#8209;uy</p>
+    </div>
+    <div>
+      <p class="footer-label">Aloqa</p>
+      <p><a href="tel:+998990010101">+998 99 001 01 01</a></p>
+      <p><a href="https://t.me/your_public_bot_username" target="_blank" rel="noopener">Telegram bot</a></p>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>© 2026 "OZ-LEK" MCHJ. Barcha huquqlar himoyalangan.</p>
   </div>
 </footer>
 
-<script src="js/config.js"></script>
-<script src="js/data-loader.js"></script>
-<script src="js/i18n.js"></script>
-<script src="js/main.js"></script>
-<script src="js/products.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
