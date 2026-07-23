@@ -1,6 +1,6 @@
 // Backend API manzilini shu yerga yozing (Railway'ga deploy qilgach olasiz)
 // Masalan: "https://oz-lek-backend-production.up.railway.app"
-const API_BASE = "https://your-railway-app.up.railway.app";
+const API_BASE = "https://worker-production-e33b.up.railway.app";
 
 const grid = document.getElementById("catalog-grid");
 const emptyMsg = document.getElementById("catalog-empty");
